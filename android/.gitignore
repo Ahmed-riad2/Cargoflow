@@ -1,0 +1,20 @@
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# Build outputs
+build/
+ios/Pods/
+android/.gradle/
+android/app/build/
+
+# IntelliJ/Android Studio/VSCode
+.idea/
+.vscode/
+*.iml
+
+# Other
+pubspec.lock

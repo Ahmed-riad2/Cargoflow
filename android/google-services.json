@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "111772119339",
+    "project_id": "cargo-flow-72e58",
+    "storage_bucket": "cargo-flow-72e58.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111772119339:android:9f4f9101dca79134e0956e",
+        "android_client_info": {
+          "package_name": "com.Ahmedriad.cargoflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111772119339-7tfo4c4nhdm23pnt1vtvti4s9icbecuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Ahmedriad.cargoflow",
+            "certificate_hash": "44fa94650eda361504608dd4a1d6222001a0df20"
+          }
+        },
+        {
+          "client_id": "111772119339-soa3buv5pukktqjkscne9l8elh6ur7rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvjhyY07LAAQEJbeurwlPv4nxN2ZQ0flo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111772119339-soa3buv5pukktqjkscne9l8elh6ur7rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
