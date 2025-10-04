@@ -1,0 +1,16 @@
+# fastlane/Fastfile
+
+default_platform(:android)
+
+platform :android do
+  desc "Build a release APK for Flutter project"
+  lane :build_release do
+    # يشغل gradlew داخل مجلد android
+    gradle(
+      task: "clean assembleRelease",
+      project_dir: "android"
+    )
+    
+    UI.message("✅ APK build completed!")
+  end
+end

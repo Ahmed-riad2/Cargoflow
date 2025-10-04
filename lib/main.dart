@@ -8,23 +8,19 @@ import 'firebase_options.dart';
 import 'screens/splash_screen.dart';
 import 'services/NotificationService.dart';
 
-// ---------------------- Background Messaging ----------------------
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp();
   print("Handling a background message: ${message.messageId}");
 }
 
-// ---------------------- Main Function ----------------------
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
-  // طلب صلاحية الإشعارات
   FirebaseMessaging messaging = FirebaseMessaging.instance;
   await messaging.requestPermission();
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
-  // تهيئة خدمة الإشعارات
   final NotificationService notificationService = NotificationService();
   await notificationService.initialize();
 
@@ -55,6 +51,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       useInheritedMediaQuery: true,
       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder,

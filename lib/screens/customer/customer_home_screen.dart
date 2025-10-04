@@ -7,7 +7,6 @@ import 'package:cargo_flow/screens/auth/login_screen.dart';
 import 'package:cargo_flow/screens/customer/profile_screen.dart';
 import 'package:cargo_flow/screens/customer/chat_screen.dart';
 import 'package:cargo_flow/widgets/custom_map_widget.dart';
-import 'package:cargo_flow/screens/customer/Customer_order.dart';
 
 class CustomerHomeScreen extends StatefulWidget {
   const CustomerHomeScreen({super.key});

@@ -46,8 +46,8 @@ class _RoleSelectionScreenState extends State<RoleSelectionScreen> {
                 const SizedBox(height: 16),
                 _buildRoleCard('Employee', 'employee', Icons.badge),
                 const SizedBox(height: 40),
-                // _buildRoleCard('Admin', 'admin', Icons.admin_panel_settings),
-                // const SizedBox(height: 40),
+                _buildRoleCard('Admin', 'admin', Icons.admin_panel_settings),
+                const SizedBox(height: 40),
 
                 ElevatedButton(
                   onPressed: () {
