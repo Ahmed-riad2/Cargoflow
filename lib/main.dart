@@ -5,7 +5,7 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'firebase_options.dart';
-import 'screens/splash_screen.dart';
+import 'screens/Splash_screen.dart';
 import 'services/NotificationService.dart';
 
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
